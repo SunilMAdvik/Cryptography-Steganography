@@ -21,3 +21,5 @@ Steganography:
 Algorithm (2): Embedding 2D-DWT-2L Algorithm.
 Algorithm-: Haar-DWT
             2D-DWT-2L can be formulated as a consecutive transformation using low-pass and high-pass filters.
+
+for more information https://github.com/SunilMAdvik/Cryptography-Steganography/blob/db01ce6681b171d70dbc888c07d2a96d0a93564f/Synopsis/AES_RSA_STGNO.docx
