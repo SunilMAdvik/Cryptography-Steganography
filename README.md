@@ -1,0 +1,2 @@
+# Cryptography-Steganography
+Secure Medical Data Transmission Model for IoT-based Healthcare Systems using Cryptography-Steganography Techniques. The transmission of data through any channel of communication needs strong encryption techniques for the purpose of data security. A method to combine steganography (Least Significant Method) and cryptography (hybrid encryption schema is built using a combination of Advanced Encryption Standard (AES), and Rivest, Shamir, and Adleman (RSA) algorithms) is considered, 
