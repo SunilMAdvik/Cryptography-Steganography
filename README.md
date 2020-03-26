@@ -4,7 +4,9 @@ Secure Medical Data Transmission Model for IoT-based Healthcare Systems using Cr
 A method to combine 2D Discrete Wavelet Transform 3 Level (2D-DWT-3L) steganography technique with a proposed cryptography (hybrid encryption AES+RSA) scheme. The proposed hybrid encryption schema is built using a combination of Advanced Encryption Standard (AES), and Rivest, Shamir, and Adleman (RSA) algorithms. The proposed model starts by encrypting the secret data; then it hides the result in a cover image using 2D-DWT-3L. 
 
 PROPOSED METHODOLOGIES.
+
 Encryption(cryptography):
+
 Algorithm (1): Hybrid (AES & RSA) Algorithm.
                Inputs: secret plain Stext message.
                Output: main_cipher message , key s
