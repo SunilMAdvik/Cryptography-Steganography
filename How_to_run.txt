@@ -1,0 +1,24 @@
+Steps
+
+1. Run "Send_Encryption.m" ...
+    - select Plain_text file 
+      Data to be Hided "Hide_Data"(16-bytes)
+    - Give P and Q values for RSA Encryption
+    -  Encrypt Plain_Text into Chiper_Text
+      using Hybrid (AES-128 bit Encryption & RSA)
+     plain text is converted  into chiper text and save as "Chiper_text"
+2. Run "Send_stegno_Embedded.m" ...
+    - Select Any image (Cover_Image) 
+    To hide the Chiper Text in Image , color and grayscale image can be select
+   - Apply DWT level 2 
+   - Hide the Secert (Chiper_Text) Data into Image
+   - save Stego image "Embed_IMAge.tiff"
+3. Run "Reciver_Stegno_Extraction.m"
+    - Get The Stego_Image 
+    - apply DWT Level 2 , Extract the Chiper_text which hided in image 
+    - save file 
+4. Run"Reciver_Decryption.m" code
+    - Get the Extracted chiper_text file 
+    -  Apply Hybrid Decryption (Inverse AES & RSA) To get Original text 
+       from Chiper text
+
